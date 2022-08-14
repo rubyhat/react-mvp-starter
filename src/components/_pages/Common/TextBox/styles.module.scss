@@ -1,0 +1,14 @@
+.text,
+.link,
+.title {
+  margin-top: 1rem;
+}
+
+.link {
+  display: inline-block;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  &:hover {
+    text-decoration: underline;
+  }
+}
